@@ -70,7 +70,7 @@ if pdf_file:
     
     # Input from the user streamlit form
     with st.form('Chatbot Form',clear_on_submit=True):
-        user_query = st.text_area('Ask Anyything')
+        user_query = st.text_area('Ask Anything')
         send = st.form_submit_button('Send')
 
     # Start the conversation and append output and query in history
