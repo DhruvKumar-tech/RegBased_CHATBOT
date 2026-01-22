@@ -9,7 +9,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 
 # Configure the mdodels
-gemini_key = os.getenv('GOOGLE_API_KEY2')
+gemini_key = os.getenv('GOOGLE_API_KEY3')
 genai.configure(api_key=gemini_key)
 model = genai.GenerativeModel('gemini-2.5-flash-lite')
 
